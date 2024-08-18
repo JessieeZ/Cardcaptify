@@ -80,9 +80,7 @@ export default function Home() {
           <Head>
             <title>Cardcaptify</title>
             <meta name="description" content="Create flashcards from your text" />
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" />
           </Head>
-
           <StyledAppBar position="static" sx={{ backgroundColor: '#B2C3D3' }}>
             <Toolbar>
               <Image src={logo} alt="Cardcaptify Logo" width={100} height={100} />
